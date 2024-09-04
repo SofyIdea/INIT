@@ -1,0 +1,64 @@
+.new_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.new_contener {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.new_contener img {
+    border-radius: 10px;
+    width: 450px;
+}
+
+.head a {
+    color: rgb(0, 137, 255);
+}
+
+.head a:hover {
+    text-decoration: none;
+}
+
+.new_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.new_date {
+    color: rgb(214, 222, 231);
+}
+
+.new_title {
+    font-size: 50px;
+}
+
+.switch_next {
+    display: flex;
+}
+
+.switch_next a{
+    color: rgb(0, 137, 255);
+}
+
+.switch_next a:hover {
+    text-decoration: none;
+}
+
+.switch {
+    display: flex;
+}
+
+.switch a{
+    margin-left: auto;
+    color: rgb(0, 137, 255);
+}
+
+.switch a:hover {
+    text-decoration: none;
+}
