@@ -1,0 +1,274 @@
+.main {
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.main img {
+    width: 500px;
+}
+
+.caption {
+    font-size: 60px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_btns {
+    display: flex;
+    gap: 25px;
+}
+
+.btn_start {
+    width: 140px;
+    border: solid 2px rgb(0, 139, 255);
+}
+
+.btn_start:hover {
+    border: white;
+}
+
+.btn_more {
+    width: 230px;
+    border: solid 2px rgb(0, 139, 255);
+    color: rgb(0, 139, 255);;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn_more:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+}
+
+/* О НАС */
+
+.dark {
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    background-color: rgb(14, 7, 100);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* УСЛУГИ */
+
+.service_blocks {
+    display: flex;
+    gap: 35px;
+}
+
+.service_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(21, 12, 133);
+    border-radius: 10px;
+    padding: 47px;
+}
+
+.caption_service {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service_more {
+    color: rgb(0, 137, 255);
+}
+
+.service_more:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* ОТЗЫВЫ */
+
+.reviews_blocks {
+    display: flex;
+    gap: 35px;
+}
+
+.review_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: solid 1px rgb(40, 56, 153);
+    padding: 47px;
+}
+
+.review_user {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.review_user img {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.review_user_about {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review_user_name {
+    font-size: 28px;
+}
+
+.review_user_info {
+    color: rgb(214, 222, 231);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating img {
+    width: 15px;
+}
+
+/* ТАРИФЫ */
+
+.tariffs_blocks {
+    display: flex;
+    gap: 35px;
+}
+
+.tariff_block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px rgb(40, 56, 153);
+    align-items: center;
+    padding: 47px;
+    text-align: center;
+}
+
+.tariff_name {
+    font-size: 27px;
+    color: rgb(214, 222, 231);
+}
+
+.tariff_price {
+    font-size: 60px;
+    color: rgb(214, 222, 231);
+}
+
+.tariff_about {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.line {
+    border-top: solid 1px rgb(40, 56, 153);
+}
+
+.dotted_line {
+    /* border-top: dotted 1px rgb(214, 222, 231); */
+    height: 1px;
+    background: repeating-linear-gradient(to right, white 0, white 2px, transparent 2px, transparent 8px);
+    margin: 20px 0;
+}
+
+/* ФОРМА ДЛЯ СВЯЗИ */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.form_title {
+    color: rgb(214, 222, 231);
+    font-size: 61px;
+    padding-bottom: 20px;
+}
+
+.form_text {
+    color: rgb(214, 222, 231);
+    font-size: 25px;
+}
+
+.form_inputs {
+    display: flex;
+    gap: 20px;
+    min-width: 800px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.form_mail {
+    text-align: right;
+}
+
+.form_send {
+    width: 150px;
+}
+
+/* ПОСЛЕДНИЕ СТАТЬИ */
+
+.articles_blocks {
+    display: flex;
+    gap: 30px;
+}
+
+.article_block {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    border: solid 2px rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+.article_block:hover {
+    width: calc(100% - 4vw);
+    border: solid 2px rgba(255, 255, 255);
+    cursor: pointer;
+    padding: 1vw;
+}
+
+.article_block img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article_text {
+    font-size: 25px;
+}
+
+.article_none {
+    width: 100%;
+}
